@@ -1,0 +1,10 @@
+[project]
+name = "testcoco"
+version = "0.0.1"
+
+[build-system]
+build-backend = 'mesonpy'
+requires = ['meson-python>=0.16']
+
+[tool.meson-python.args]
+install = ['--skip-subprojects']
